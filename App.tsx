@@ -206,7 +206,7 @@ const App: React.FC = () => {
       <footer className="bg-stone-900 text-stone-500 py-8 px-6 text-center text-sm border-t border-amber-900">
         <div className="max-w-4xl mx-auto">
             <p className="mb-2 font-serif">
-              Pharmacopeia Archive &copy; 2024 <a href="mailto:bebreen@ucsc.edu" className="text-amber-500 hover:text-amber-400 transition-colors">Benjamin Breen</a>
+              Pharmacopeia Archive &copy; 2025 <a href="mailto:bebreen@ucsc.edu" className="text-amber-500 hover:text-amber-400 transition-colors">Benjamin Breen</a>
             </p>
             <p className="text-xs text-stone-600 mb-3">
                 Disclaimer: This application contains historical materials depicting drug use that may be offensive or disturbing.

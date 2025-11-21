@@ -1365,6 +1365,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Posada, José Guadalupe. *Chepito Mariguano*. Type-metal engraving. Mexico City, c. 1900.',
       footnotes: ['Posada influenced the aesthetics of the Mexican Revolution.', 'The character is a "pelado" (urban poor) archetype.']
     },
+    furtherReading: [
+      {
+        title: 'Home Grown: Marijuana and the Origins of Mexico\'s War on Drugs',
+        url: 'https://uncpress.org/book/9780807835387/home-grown/',
+        citation: 'Campos, Isaac. *Home Grown: Marijuana and the Origins of Mexico\'s War on Drugs*. Chapel Hill: University of North Carolina Press, 2012.'
+      },
+      {
+        title: 'Mexican Printmaking in the Era of Posada',
+        url: '#',
+        citation: 'Oles, James. *Art and Architecture in Mexico*. New York: Thames & Hudson, 2013.'
+      }
+    ],
     location: 'Mexico City, Mexico',
     coordinates: [19.4326, -99.1332]
   },
@@ -1386,6 +1398,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Unknown. *La Régie de l\'Opium - La Cuisson*. Postcard. Saigon, c. 1910.',
       footnotes: ['Opium taxes funded up to 50% of the colony\'s revenue.', 'Ho Chi Minh cited the forced sale of opium as a crime of colonialism.']
     },
+    furtherReading: [
+      {
+        title: 'Opium Empire: Japanese Imperialism and Drug Trafficking in Asia, 1895-1945',
+        url: 'https://uncpress.org/book/9780807872260/opium-empire/',
+        citation: 'Meyer, Kathryn. *Opium Empire: Japanese Imperialism and Drug Trafficking in Asia, 1895-1945*. Chapel Hill: University of North Carolina Press, 2020.'
+      },
+      {
+        title: 'Opium Regimes: China, Britain, and Japan, 1839-1952',
+        url: 'https://www.ucpress.edu/book/9780520275447/opium-regimes',
+        citation: 'Slack, Edward R. *Opium, State, and Society: China\'s Narco-Economy and the Guomindang, 1924-1937*. Honolulu: University of Hawaii Press, 2001.'
+      }
+    ],
     location: 'Saigon, Vietnam',
     coordinates: [10.8231, 106.6297]
   },
@@ -1407,6 +1431,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Russell, Thomas Wentworth. *Annual Report of the Central Narcotics Intelligence Bureau*. Cairo: Government Press, 1931.',
       footnotes: ['Russell Pasha was the head of the Cairo Police for 29 years.', 'Instrumental in the 1931 Convention for Limiting the Manufacture of Narcotic Drugs.']
     },
+    furtherReading: [
+      {
+        title: 'Drug War Capitalism',
+        url: 'https://www.akpress.org/drugwarcapitalism.html',
+        citation: 'Paley, Dawn. *Drug War Capitalism*. Oakland: AK Press, 2014.'
+      },
+      {
+        title: 'Policing Empire: Orientalism and the Origins of International Police Cooperation',
+        url: '#',
+        citation: 'Deflem, Mathieu. *Policing World Society: Historical Foundations of International Police Cooperation*. Oxford: Oxford University Press, 2002.'
+      }
+    ],
     location: 'Cairo, Egypt',
     coordinates: [30.0444, 31.2357]
   },
@@ -1429,6 +1465,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Crowley, Aleister. *Diary of a Drug Fiend*. London: Collins, 1922.',
       footnotes: ['Crowley wrote the book in just 27 days.', 'Based on his time at the Abbey of Thelema in Cefalù.']
     },
+    furtherReading: [
+      {
+        title: 'Do What Thou Wilt: A Life of Aleister Crowley',
+        url: 'https://us.macmillan.com/books/9780312252434/dowhatthouwilt',
+        citation: 'Sutin, Lawrence. *Do What Thou Wilt: A Life of Aleister Crowley*. New York: St. Martin\'s Griffin, 2000.'
+      },
+      {
+        title: 'The Place of Enchantment: British Occultism and the Culture of the Modern',
+        url: 'https://press.uchicago.edu/ucp/books/book/chicago/P/bo3533891.html',
+        citation: 'Owen, Alex. *The Place of Enchantment: British Occultism and the Culture of the Modern*. Chicago: University of Chicago Press, 2004.'
+      }
+    ],
     location: 'London, UK',
     coordinates: [51.5074, -0.1278]
   },
