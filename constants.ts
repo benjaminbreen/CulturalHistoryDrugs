@@ -346,7 +346,7 @@ export const INITIAL_SOURCES: SourceItem[] = [
     description: 'Trade card for a popular infant medicine containing morphine and alcohol, widely used to quiet crying babies.',
     fullAnalysis: `Mrs. Winslow's Soothing Syrup is perhaps the most infamous example of the dangers of the patent medicine era. Marketed aggressively to exhausted mothers as a safe way to calm teething or colicky babies, the syrup contained substantial amounts of morphine sulphate and alcohol. It was incredibly effective at quieting children—often by sedating them into a coma or slowing their respiration until death occurred.\n\nThe product illustrates the lack of consumer protection in the 19th century. "Comforters" and "soothing syrups" were a major public health hazard. The American Medical Association later labeled it a "baby killer," and it became a primary exhibit in the muckraking journalism that led to the 1906 Pure Food and Drug Act.`,
     excerpt: "MRS. WINSLOW'S SOOTHING SYRUP / For Children Teething / Greatly facilitates the process of teething... will allay ALL PAIN and spasmodic action, and is / SURE TO REGULATE THE BOWELS.",
-    url: 'https://commons.wikimedia.org/wiki/File:Mrs_Winslows_Soothing_Syrup_ad.jpg',
+    url: 'https://en.wikipedia.org/wiki/Mrs._Winslow%27s_Soothing_Syrup',
     thumbnailUrl: '/images/mrs-winslows-soothing-syrup.jpg',
     tags: ['Morphine', 'Medicine', 'Infants', 'Patent Medicine'],
     citation: {
@@ -445,8 +445,8 @@ export const INITIAL_SOURCES: SourceItem[] = [
     description: 'A government informational film encouraging farmers to grow hemp for the war effort during WWII, a stark contrast to previous and subsequent anti-marijuana stances.',
     fullAnalysis: `Hemp for Victory is a fascinating historical pivot point that exposes the pragmatic hypocrisy of US drug policy. Just five years after the 1937 Marihuana Tax Act had effectively banned cannabis cultivation, the US government found itself cut off from Asian supplies of hemp due to Japanese conquests in WWII. In response, the USDA produced this film, urging patriotic American farmers to plant hemp for naval rope, parachute webbing, and shoes.\n\nThe film completely sanitizes the plant, referring to it strictly as an industrial crop and ignoring its psychoactive properties or its demonization as "marijuana." After the war, the government attempted to bury the film, denying its existence until archives surfaced in the 1980s.`,
     excerpt: "[Narrator]: 'Hemp for mooring ships! Hemp for tow lines! Hemp for tackle and gear! ... American hemp will go on duty again: hemp for the victory!'",
-    url: 'https://archive.org/details/HempForVictory1942_201602',
-    embedUrl: 'https://archive.org/embed/HempForVictory1942_201602',
+    url: 'https://archive.org/details/Hemp_for_victory_1942',
+    embedUrl: 'https://archive.org/details/Hemp_for_victory_1942',
     thumbnailUrl: '/images/hemp-for-victory-poster.jpg',
     tags: ['Hemp', 'Propaganda', 'WWII', 'Agriculture'],
     citation: {
@@ -478,7 +478,7 @@ export const INITIAL_SOURCES: SourceItem[] = [
     creator: 'Edgar Degas',
     description: 'An oil painting depicting a woman staring vacantly into a glass of absinthe, capturing the social isolation and "mal de vivre" associated with the drink in Paris.',
     fullAnalysis: `Edgar Degas’s "L’Absinthe" (1876) is a masterpiece of social realism that captured the dark side of the Belle Époque. The painting depicts a woman (modeled by actress Ellen Andrée) slumped in a café, a glass of the green spirit before her. It caused a scandal upon its release, viewed as a degradation of French morality.\n\nThe work is significant for moving beyond the romanticization of the "bohemian artist" to depict the stark reality of urban alienation and alcoholism. Absinthe here is not a muse, but a numbing agent for the working poor. The painting became a visual argument for the temperance movement, illustrating the "mal de vivre" that would eventually lead to the banning of absinthe in France in 1915.`,
-    url: 'https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg',
+    url: 'https://en.wikipedia.org/wiki/L%27Absinthe',
     thumbnailUrl: '/images/degas-in-a-cafe.jpg',
     tags: ['Absinthe', 'Art', 'Impressionism', 'Alcohol'],
     citation: {
@@ -510,7 +510,7 @@ export const INITIAL_SOURCES: SourceItem[] = [
     creator: 'E.W. Kemble / Collier\'s',
     description: 'The famous "Death\'s Laboratory" cartoon from Collier\'s, illustrating the dangers of unregulated patent medicines prior to the Pure Food and Drug Act.',
     fullAnalysis: `This 1906 cartoon from Collier’s Weekly, titled "Death’s Laboratory," was instrumental in the passage of the Pure Food and Drug Act later that year. It depicts a skull-faced pharmacist mixing patent medicines with labels like "Laudanum" and "Cheap Alcohol." The image attacked the unregulated "snake oil" industry that sold addictive narcotics as cures for teething babies and consumption.\n\nThe cartoon represents the peak of muckraking journalism, where visual media was used to mobilize public outrage against corporate malfeasance. The resulting legislation marked the first major federal intervention into the drug and food supply, establishing the principle that the government had a duty to label and regulate what citizens ingested.`,
-    url: 'https://visitthecapitol.gov/artifact/s-88-pure-food-and-drug-act-1906',
+    url: 'https://www.nlm.nih.gov/exhibition/phs_history/foodanddrugs.html',
     thumbnailUrl: '/images/deaths-laboratory.gif',
     tags: ['Law', 'Regulation', 'Medicine', 'Labels'],
     citation: {
@@ -534,38 +534,7 @@ export const INITIAL_SOURCES: SourceItem[] = [
     location: 'Washington, D.C.',
     coordinates: [38.8899, -77.0090]
   },
-  {
-    id: 'src_017',
-    title: 'Chinese Opium Smokers',
-    year: 1902,
-    type: MediaType.VIDEO,
-    creator: 'Thomas Edison',
-    description: 'A very early silent actuality film produced by Edison Studios purporting to show an opium den in San Francisco, reflecting the exoticism and xenophobia of the era.',
-    fullAnalysis: `Thomas Edison’s 1902 film "Chinese Opium Smokers" is a foundational text in the visual history of drug prohibition. Purporting to show a real San Francisco opium den, the film was likely staged, reinforcing the racialized stereotype of the "Yellow Peril." It depicts Chinese men in a dark, cramped space, engaging in a ritual that white audiences found both exotic and threatening.\n\nSuch media played a crucial role in associating opium specifically with Chinese immigrants, framing the drug as a foreign contagion threatening white moral purity. This racial stigma was a primary driver for the early local and state ordinances banning opium dens, long before federal prohibition was enacted.`,
-    url: 'https://www.loc.gov/item/00694332/',
-    thumbnailUrl: '/images/opium-smokers-china.jpg',
-    tags: ['Opium', 'Silent Film', 'Edison', 'Xenophobia'],
-    citation: {
-      apa: 'Edison, T. (Producer). (1902). Chinese Opium Smokers [Film]. Edison Studios.',
-      mla: 'Chinese Opium Smokers. Produced by Thomas Edison, Edison Studios, 1902.',
-      chicago: 'Edison, Thomas, prod. *Chinese Opium Smokers*. Edison Studios, 1902.',
-      footnotes: []
-    },
-    furtherReading: [
-        {
-            title: "The Yellow Peril: Dr Fu Manchu & The Rise of Chinaphobia",
-            url: "#",
-            citation: "Hodder, Frank. *The Yellow Peril: Dr Fu Manchu & The Rise of Chinaphobia*. London: Thames & Hudson, 2014."
-        },
-        {
-            title: "Opium: A History",
-            url: "#",
-            citation: "Booth, Martin. *Opium: A History*. New York: St. Martin's Press, 1996."
-        }
-    ],
-    location: 'West Orange, NJ',
-    coordinates: [40.7987, -74.2390]
-  },
+  
   {
     id: 'src_018',
     title: 'Vin Mariani Advertisement',
@@ -632,38 +601,7 @@ export const INITIAL_SOURCES: SourceItem[] = [
     location: 'Atlanta, GA',
     coordinates: [33.7490, -84.3880]
   },
-  {
-    id: 'src_020',
-    title: 'Morphine Syrette (WWII)',
-    year: 1944,
-    type: MediaType.IMAGE,
-    creator: 'E.R. Squibb & Sons',
-    description: 'Standard issue morphine tartrate "syrette" used by US soldiers during World War II for immediate pain relief on the battlefield.',
-    fullAnalysis: `The Morphine Syrette is a potent symbol of the medicalization of opioids in the mid-20th century. Standard issue for US soldiers in WWII, these collapsible tubes with attached needles allowed for immediate self-administration of pain relief on the battlefield. While they saved countless lives from shock and agony, they also introduced a generation of young men to the potent effects of morphine.\n\nPost-war addiction rates among veterans were a silent crisis, often treated with more sympathy than civilian addiction due to its origin in service. The syrette represents the dual nature of opiates: a miraculous tool for mercy in the context of trauma, and a potential vector for lifelong dependency.`,
-    url: 'https://commons.wikimedia.org/wiki/File:MorphineSyrette.JPG',
-    thumbnailUrl: '/images/morphine-syrette.jpg',
-    tags: ['Morphine', 'WWII', 'Military', 'Medicine'],
-    citation: {
-      apa: 'U.S. Army Medical Department. (c. 1944). Morphine Tartrate Syrette [Object].',
-      mla: 'U.S. Army Medical Department. Morphine Tartrate Syrette. c. 1944.',
-      chicago: 'U.S. Army Medical Department. *Morphine Tartrate Syrette*. Medical artifact. c. 1944.',
-      footnotes: []
-    },
-    furtherReading: [
-        {
-            title: "Pharmacological Warfare",
-            url: "#",
-            citation: "Kamienski, Lukasz. *Shooting Up: A Short History of Drugs and War*. Oxford: Oxford University Press, 2016."
-        },
-        {
-            title: "War and Drugs",
-            url: "#",
-            citation: "Andreas, Peter. *Killer High: A History of War in Six Drugs*. New York: Oxford University Press, 2020."
-        }
-    ],
-    location: 'New Brunswick, NJ',
-    coordinates: [40.4862, -74.4518]
-  },
+ 
   {
     id: 'src_021',
     title: 'Viper\'s Drag',
@@ -673,8 +611,8 @@ export const INITIAL_SOURCES: SourceItem[] = [
     description: 'A slow, smoky jazz piano composition referencing "Vipers"—the Harlem slang for marijuana smokers.',
     fullAnalysis: `Fats Waller's "Viper's Drag" is a musical embodiment of the marijuana high. A "viper" was Harlem slang for a pot smoker (named for the hissing sound made when taking a swift pull on a reefer). The track begins with a slow, heavy, lethargic groove that mimics the sedative effects of the drug, before breaking into a more playful stride section.\n\nWaller, a heavy drinker who also enjoyed cannabis, captures the insider nature of the culture. Unlike the frantic anxiety of "Reefer Madness," this is music for relaxation and pleasure. It demonstrates how deeply integrated marijuana was into the creative process of Jazz giants. The title acts as a shibboleth; if you knew what a "viper" was, you were part of the in-group.`,
     excerpt: "[Instrumental] \n(Spoken intro in some versions): 'Boy, dreamin' 'bout a reefer five feet long... mighty me...'",
-    url: 'https://archive.org/details/78_vipers-drag_fats-waller-and-his-rhythm-fats-waller_gbia0013804b',
-    embedUrl: 'https://archive.org/embed/78_vipers-drag_fats-waller-and-his-rhythm-fats-waller_gbia0013804b',
+    url: 'https://www.youtube.com/watch?v=o44MrCkAAgs',
+    embedUrl: 'https://www.youtube.com/watch?v=o44MrCkAAgs',
     thumbnailUrl: '/images/fats-waller.jpg',
     tags: ['Jazz', 'Marijuana', 'Music', 'Harlem'],
     citation: {
@@ -698,38 +636,7 @@ export const INITIAL_SOURCES: SourceItem[] = [
     location: 'New York, NY',
     coordinates: [40.8115, -73.9465]
   },
-  {
-    id: 'src_022',
-    title: 'Lips That Touch Liquor',
-    year: 1874,
-    type: MediaType.IMAGE,
-    creator: 'Women\'s Christian Temperance Union',
-    description: 'While slightly pre-dating 1880, this slogan and image defined the Temperance movement leading up to Prohibition. "Lips That Touch Liquor Shall Not Touch Ours".',
-    fullAnalysis: `The slogan "Lips That Touch Liquor Shall Not Touch Ours" became the rallying cry of the Women’s Christian Temperance Union (WCTU) in the late 19th century. It framed the temperance movement not just as a political issue, but as a matter of domestic sanctity and female agency. Women, who had few legal rights and often suffered from alcohol-fueled domestic violence, used their moral authority as mothers and wives to demand prohibition.\n\nThis image and slogan demonstrate how the fight against alcohol was deeply intertwined with the early feminist movement. By politicizing the domestic sphere, these women built the grassroots political machine that eventually succeeded in passing the 18th Amendment, proving that moral suasion could translate into constitutional change.`,
-    url: 'https://commons.wikimedia.org/wiki/File:Kansas_Saloon_Smashers.jpg',
-    thumbnailUrl: '/images/lips-that-touch-liquor.jpg',
-    tags: ['Alcohol', 'Prohibition', 'Temperance', 'Women'],
-    citation: {
-      apa: 'Currier & Ives. (c. 1874). Lips That Touch Liquor Shall Not Touch Ours [Lithograph].',
-      mla: 'Currier & Ives. "Lips That Touch Liquor Shall Not Touch Ours." Lithograph, c. 1874.',
-      chicago: 'Currier & Ives. "Lips That Touch Liquor Shall Not Touch Ours." Lithograph. New York, c. 1874.',
-      footnotes: []
-    },
-    furtherReading: [
-        {
-            title: "A History of the World in 6 Glasses",
-            url: "https://www.bloomsbury.com/us/history-of-the-world-in-6-glasses-9780802715524/",
-            citation: "Standage, Tom. *A History of the World in 6 Glasses*. New York: Walker & Company, 2005."
-        },
-        {
-            title: "Women and the Temperance Movement",
-            url: "#",
-            citation: "Bordin, Ruth. *Woman and Temperance: The Quest for Power and Liberty, 1873-1900*. Philadelphia: Temple University Press, 1981."
-        }
-    ],
-    location: 'New York, NY',
-    coordinates: [40.7128, -74.0060]
-  },
+
   {
     id: 'src_023',
     title: 'Dope',
@@ -837,7 +744,7 @@ export const INITIAL_SOURCES: SourceItem[] = [
     creator: 'Rexall',
     description: 'Label for Paregoric (Camphorated Tincture of Opium). Unlike Laudanum, Paregoric had a lower opium concentration and remained available over-the-counter in some states until the 1970s.',
     fullAnalysis: `Paregoric, a camphorated tincture of opium, occupies a unique place in the history of American medicine. Unlike stronger opiates that were heavily regulated by the Harrison Act, Paregoric contained a lower concentration of opium and remained available over-the-counter in many states well into the mid-20th century. It was a staple in American medicine cabinets for treating diarrhea and fretful children.\n\nIts longevity illustrates the "medical exception" in drug policy: the same substance that is demonized on the street is accepted when packaged by a pharmaceutical company. Paregoric served as a maintenance drug for many addicts when heroin was scarce, a legal loophole that persisted for decades.`,
-    url: 'https://commons.wikimedia.org/wiki/File:Paregoric.jpeg',
+    url: 'https://en.wikipedia.org/wiki/Paregoric',
     thumbnailUrl: '/images/paregoric.jpg',
     tags: ['Opium', 'Medicine', 'Pharmacy', 'Children'],
     citation: {
@@ -903,7 +810,7 @@ export const INITIAL_SOURCES: SourceItem[] = [
     description: 'The first international drug control treaty, signed at The Hague, which established the framework for global narcotics regulation.',
     fullAnalysis: `The International Opium Convention of 1912 at The Hague was the watershed moment for global drug control. It was the first international treaty to require nations to pass laws regulating the trade in opium, morphine, and cocaine. The convention shifted the drug issue from a matter of trade and tariffs to a matter of international morality and police cooperation.\n\nDriven largely by US diplomacy, the treaty laid the groundwork for the prohibitionist regime that would dominate the 20th century. It compelled signatory nations to establish domestic drug control agencies, leading directly to the Harrison Act in the US and the Dangerous Drugs Act in the UK.`,
     excerpt: "The Contracting Powers shall use their best endeavours to control, or to cause to be controlled, all persons manufacturing, importing, selling, distributing, and exporting morphine, cocaine, and their respective salts.",
-    url: 'https://en.wikipedia.org/wiki/International_Opium_Convention',
+    url: 'https://en.wikipedia.org/wiki/First_International_Opium_Convention',
     thumbnailUrl: '/images/international-opium-conference-1911.jpg',
     tags: ['Law', 'Opium', 'International', 'Treaty'],
     citation: {
@@ -1036,8 +943,8 @@ export const INITIAL_SOURCES: SourceItem[] = [
     description: 'The first edition of the foundational text of the twelve-step program, introducing the concept of alcoholism as an illness and spiritual malady.',
     fullAnalysis: `The publication of "Alcoholics Anonymous" (The Big Book) in 1939 marked a paradigm shift in the treatment of addiction. Bill Wilson and the early AA members reframed alcoholism not as a moral failing or a lack of willpower, but as a spiritual and physical "illness" (an allergy of the body and an obsession of the mind).\n\nBy removing the stigma of "sin" and offering a program of mutual aid and spiritual reconstruction, AA provided a solution where medicine and religion had failed. The text established the 12-step model which remains the dominant framework for addiction recovery worldwide, emphasizing community and anonymity over institutionalization.`,
     excerpt: "We admitted we were powerless over alcohol—that our lives had become unmanageable.",
-    url: 'https://archive.org/details/alcoholicsanonym00wils',
-    embedUrl: 'https://archive.org/embed/alcoholicsanonym00wils',
+    url: 'https://archive.org/details/bigbookofalcohol0000smit',
+    embedUrl: 'https://archive.org/details/bigbookofalcohol0000smit',
     thumbnailUrl: '/images/alcoholics-anonymous-dust-jacket.jpg',
     tags: ['Alcohol', 'Recovery', 'Literature', 'Religion'],
     citation: {
