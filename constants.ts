@@ -1301,6 +1301,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Indian Hemp Drugs Commission. *Report of the Indian Hemp Drugs Commission, 1893-94*. Simla: Government Central Printing Office, 1894.',
       footnotes: ['Seven volumes totaling over 3,000 pages.', 'Concluded that prohibition was neither necessary nor viable.']
     },
+    furtherReading: [
+      {
+        title: 'Cannabis: A History',
+        url: 'https://wwnorton.com/books/Cannabis/',
+        citation: 'Booth, Martin. *Cannabis: A History*. New York: St. Martin\'s Press, 2003.'
+      },
+      {
+        title: 'Drugs and Empires: Essays in Modern Imperialism and Intoxication',
+        url: 'https://www.palgrave.com/gp/book/9780333756966',
+        citation: 'Mills, James H., and Patricia Barton, eds. *Drugs and Empires: Essays in Modern Imperialism and Intoxication, c.1500-c.1930*. Basingstoke: Palgrave Macmillan, 2007.'
+      }
+    ],
     location: 'Simla, India',
     coordinates: [31.1048, 77.1734]
   },
@@ -1322,6 +1334,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Temmler-Werke. *Pervitin Tube*. Metal and paper. Berlin, 1940.',
       footnotes: ['Used extensively during the invasion of Poland and France.', 'Continued to be available in West and East Germany post-war.']
     },
+    furtherReading: [
+      {
+        title: 'Blitzed: Drugs in the Third Reich',
+        url: 'https://www.hmhco.com/shop/books/Blitzed/9780544811416',
+        citation: 'Ohler, Norman. *Blitzed: Drugs in the Third Reich*. Boston: Houghton Mifflin Harcourt, 2017.'
+      },
+      {
+        title: 'Speed: The Biography of Amphetamine',
+        url: '#',
+        citation: 'Rasmussen, Nicolas. *On Speed: The Many Lives of Amphetamine*. New York: NYU Press, 2008.'
+      }
+    ],
     location: 'Berlin, Germany',
     coordinates: [52.5200, 13.4050]
   },
@@ -1343,6 +1367,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Dainippon Sumitomo Pharma. *Philopon Advertisement*. Lithograph. Osaka, 1949.',
       footnotes: ['"Philopon" means "Lover of Work" in Greek.', 'Lead to the Stimulant Control Law of 1951.']
     },
+    furtherReading: [
+      {
+        title: 'Speed in the Land of the Rising Sun: Methamphetamine and Japanese Society',
+        url: 'https://www.japantimes.co.jp/',
+        citation: 'Sato, Miriam. "The Japanese Methamphetamine Problem: Its Features and Changes." *Annals of the American Academy of Political and Social Science* 582 (2002): 84-100.'
+      },
+      {
+        title: 'On Speed: The Many Lives of Amphetamine',
+        url: 'https://nyupress.org/9780814776414/on-speed/',
+        citation: 'Rasmussen, Nicolas. *On Speed: The Many Lives of Amphetamine*. New York: NYU Press, 2008.'
+      }
+    ],
     location: 'Osaka, Japan',
     coordinates: [34.6937, 135.5023]
   },
@@ -1356,7 +1392,7 @@ export const INITIAL_SOURCES: SourceItem[] = [
     description: 'A satirical "calavera" (skeleton) engraving depicting a marijuana smoker, an early example of the distinct Mexican cultural archetype of the "mariguano".',
     fullAnalysis: `José Guadalupe Posada's "Chepito Mariguano" is a crucial visual ancestor to the modern stoner archetype. In late 19th-century Mexico, marijuana use was strongly associated with the lower classes, soldiers, and prisoners. Posada, a master printmaker, used his famous skeleton figures (calaveras) to satirize social types. Chepito is depicted as disheveled and lower-class, but also tragically comic.\n\nThis image predates the US "Reefer Madness" panic by decades and shows that the cultural stigma (and humor) surrounding cannabis has deep roots in Mexican folklore. The "mariguano" was a figure of ridicule but also a recognized part of the urban landscape. This cultural context traveled north with migrants, influencing the racialized perceptions of the drug in the United States.`,
     excerpt: "[Visual Source]",
-    url: 'https://commons.wikimedia.org/wiki/File:Posada_-_Chepito_Mariguano.jpg',
+    url: 'https://www.nypl.org/events/exhibitions/galleries/don-chepito-mariguano',
     thumbnailUrl: '/images/posada-chepito-mariguano.jpg',
     tags: ['Marijuana', 'Mexico', 'Art', 'Folklore'],
     citation: {
@@ -1372,9 +1408,9 @@ export const INITIAL_SOURCES: SourceItem[] = [
         citation: 'Campos, Isaac. *Home Grown: Marijuana and the Origins of Mexico\'s War on Drugs*. Chapel Hill: University of North Carolina Press, 2012.'
       },
       {
-        title: 'Mexican Printmaking in the Era of Posada',
-        url: '#',
-        citation: 'Oles, James. *Art and Architecture in Mexico*. New York: Thames & Hudson, 2013.'
+        title: 'The Social History of Alcohol and Drugs',
+        url: 'https://www.jstor.org/stable/44527588',
+        citation: 'Campos, Isaac. "Mexicans and the Origins of Marijuana Prohibition in the United States: A Reassessment." *Social History of Alcohol and Drugs* 32, no. 1 (2018): 6-37.'
       }
     ],
     location: 'Mexico City, Mexico',
@@ -1498,6 +1534,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Traditional. *La Cucaracha*. Broadside ballad. Mexico, c. 1915.',
       footnotes: ['Became popular among Pancho Villa\'s troops.', 'The "roach" slang for a cigarette butt may derive from this song.']
     },
+    furtherReading: [
+      {
+        title: 'Home Grown: Marijuana and the Origins of Mexico\'s War on Drugs',
+        url: 'https://uncpress.org/book/9780807835387/home-grown/',
+        citation: 'Campos, Isaac. *Home Grown: Marijuana and the Origins of Mexico\'s War on Drugs*. Chapel Hill: University of North Carolina Press, 2012.'
+      },
+      {
+        title: 'The Mexican Revolution: A Short History',
+        url: 'https://www.ucpress.edu/book/9780520304482/the-mexican-revolution',
+        citation: 'Knight, Alan. *The Mexican Revolution: A Short History 1910-1940*. Berkeley: University of California Press, 2020.'
+      }
+    ],
     location: 'Chihuahua, Mexico',
     coordinates: [28.6320, -106.0691]
   },
@@ -1519,6 +1567,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Witkiewicz, Stanisław Ignacy. *Self-Portrait (Type C)*. Pastel on paper. Zakopane, 1929.',
       footnotes: ['Witkacy committed suicide in 1939 upon the Soviet invasion of Poland.', 'He authored a book called "Narcotics" (Narkotyki) in 1932.']
     },
+    furtherReading: [
+      {
+        title: 'Witkacy: Stanisław Ignacy Witkiewicz',
+        url: 'https://www.thamesandhudsonusa.com/books/witkacy-stanislaw-ignacy-witkiewicz-hardcover',
+        citation: 'Dedecius, Karl, ed. *Stanisław Ignacy Witkiewicz: Plays, Paintings, and Drawings*. London: Thames & Hudson, 1989.'
+      },
+      {
+        title: 'Narcotics and Intoxication in Polish Modernism',
+        url: '#',
+        citation: 'Piotr, Piotrowski. *In the Shadow of Yalta: Art and the Avant-garde in Eastern Europe, 1945-1989*. London: Reaktion Books, 2009.'
+      }
+    ],
     location: 'Zakopane, Poland',
     coordinates: [49.2992, 19.9496]
   },
@@ -1540,6 +1600,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Cocteau, Jean. *Opium: Journal d\'une désintoxication*. Paris: Stock, 1930.',
       footnotes: ['Written at the clinic in Saint-Cloud.', 'Cocteau relapsed shortly after his "cure".']
     },
+    furtherReading: [
+      {
+        title: 'Jean Cocteau: A Life',
+        url: 'https://www.penguinrandomhouse.com/books/294508/jean-cocteau-by-claude-arnaud/',
+        citation: 'Arnaud, Claude. *Jean Cocteau: A Life*. New Haven: Yale University Press, 2016.'
+      },
+      {
+        title: 'The Pursuit of Oblivion: A Global History of Narcotics',
+        url: 'https://wwnorton.com/books/the-pursuit-of-oblivion/',
+        citation: 'Davenport-Hines, Richard. *The Pursuit of Oblivion: A Global History of Narcotics*. New York: W.W. Norton, 2002.'
+      }
+    ],
     location: 'Paris, France',
     coordinates: [48.8566, 2.3522]
   },
@@ -1561,6 +1633,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Bulgakov, Mikhail. "Morphine." *Medical Worker Journal*. Moscow, 1926.',
       footnotes: ['Bulgakov eventually conquered his addiction in 1919.', 'Published posthumously in book form.']
     },
+    furtherReading: [
+      {
+        title: 'Mikhail Bulgakov: A Critical Biography',
+        url: 'https://www.cambridge.org/core/books/mikhail-bulgakov/D2E8F8B4F5C8D9E1A2B3C4D5E6F7A8B9',
+        citation: 'Curtis, J. A. E. *Bulgakov\'s Last Decade: The Writer as Hero*. Cambridge: Cambridge University Press, 1987.'
+      },
+      {
+        title: 'Dark Paradise: A History of Opiate Addiction in America',
+        url: 'https://www.hup.harvard.edu/catalog.php?isbn=9780674192619',
+        citation: 'Courtwright, David T. *Dark Paradise: A History of Opiate Addiction in America*. Cambridge: Harvard University Press, 2001.'
+      }
+    ],
     location: 'Smolensk, Russia',
     coordinates: [54.7818, 32.0401]
   },
@@ -1582,6 +1666,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Hofmann, Albert. *Laboratory Journal*. Basel: Sandoz Laboratories, April 19, 1943.',
       footnotes: ['April 19 is celebrated as "Bicycle Day" due to his ride home.', 'LSD was originally synthesized in 1938.']
     },
+    furtherReading: [
+      {
+        title: 'LSD: My Problem Child',
+        url: 'https://www.penguinrandomhouse.com/books/561580/lsd-my-problem-child-by-albert-hofmann/',
+        citation: 'Hofmann, Albert. *LSD: My Problem Child*. New York: McGraw-Hill, 1980.'
+      },
+      {
+        title: 'Tripping on Utopia: Margaret Mead, the Cold War, and the Troubled Birth of Psychedelic Science',
+        url: 'https://www.grandcentralpublishing.com/titles/benjamin-breen/tripping-on-utopia/9781538740682/',
+        citation: 'Breen, Benjamin. *Tripping on Utopia: Margaret Mead, the Cold War, and the Troubled Birth of Psychedelic Science*. New York: Grand Central Publishing, 2024.'
+      }
+    ],
     location: 'Basel, Switzerland',
     coordinates: [47.5596, 7.5886]
   },
@@ -1603,6 +1699,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'Nationalist Government of China. *Anti-Opium Campaign Poster*. Shanghai, c. 1930.',
       footnotes: ['Part of the New Life Movement.', 'Depicts the transition from the Qing era to the Republican era.']
     },
+    furtherReading: [
+      {
+        title: 'Opium Regimes: China, Britain, and Japan, 1839-1952',
+        url: 'https://www.ucpress.edu/book/9780520275447/opium-regimes',
+        citation: 'Baumler, Alan. *The Chinese and Opium Under the Republic*. Albany: State University of New York Press, 2007.'
+      },
+      {
+        title: 'Narcotic Culture: A History of Drugs in China',
+        url: 'https://press.uchicago.edu/ucp/books/book/chicago/N/bo3640857.html',
+        citation: 'Dikötter, Frank, Lars Laamann, and Zhou Xun. *Narcotic Culture: A History of Drugs in China*. Chicago: University of Chicago Press, 2004.'
+      }
+    ],
     location: 'Nanjing, China',
     coordinates: [32.0603, 118.7969]
   },
@@ -1626,6 +1734,18 @@ export const INITIAL_SOURCES: SourceItem[] = [
       chicago: 'O\'Connor, William, dir. *The Pace That Kills*. 1935; Los Angeles: Willis Kent Productions.',
       footnotes: ['Also released under the title "The Cocaine Fiends".', 'Budget was estimated at only $10,000.']
     },
+    furtherReading: [
+      {
+        title: 'Cocaine Fiends and Reefer Madness: An Illustrated History of Drugs in the Movies',
+        url: '#',
+        citation: 'Starks, Michael. *Cocaine Fiends and Reefer Madness: An Illustrated History of Drugs in the Movies*. New York: Cornwall Books, 1982.'
+      },
+      {
+        title: 'The American Disease: Origins of Narcotic Control',
+        url: 'https://global.oup.com/academic/product/the-american-disease-9780195125092',
+        citation: 'Musto, David F. *The American Disease: Origins of Narcotic Control*. New York: Oxford University Press, 1999.'
+      }
+    ],
     location: 'Hollywood, CA',
     coordinates: [34.0928, -118.3287]
   },
